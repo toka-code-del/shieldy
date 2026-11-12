@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shieldy | Mission 4</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        🛡️ Shieldy
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">🏠 Startseite</a></li>
+        <li><a href="escaperoom.html">🎮 Escape Room</a></li>
+    </ul>
+
+</nav>
+
+<section class="content">
+
+    <h1>🦠 Mission 4: Malware stoppen</h1>
+
+    <p class="intro">
+        Der Angreifer hat eine gefährliche Schadsoftware aktiviert.
+        Die Dateien des Unternehmens werden verschlüsselt und der Zugriff
+        auf wichtige Daten geht verloren.
+    </p>
+
+    <div class="mission-card">
+
+        <h2>Frage</h2>
+
+        <p>
+            Welche Malware verschlüsselt Dateien
+            und fordert anschließend Lösegeld?
+        </p>
+
+        <ul>
+            <li>Virus</li>
+            <li>Trojaner</li>
+            <li>Ransomware</li>
+        </ul>
+
+        <input
+            type="text"
+            id="answer4"
+            placeholder="Antwort eingeben">
+
+        <button onclick="checkMission4()">
+            Antwort prüfen
+        </button>
+
+        <p id="result4"></p>
+
+    </div>
+
+    <div class="tip-box">
+
+        <h2>💡 Hinweis</h2>
+
+        <p>
+            Diese Malware-Art war für Angriffe wie WannaCry bekannt
+            und verschlüsselt die Daten des Opfers.
+        </p>
+
+    </div>
+
+</section>
+
+<script src="escape.js"></script>
+
+</body>
+</html>

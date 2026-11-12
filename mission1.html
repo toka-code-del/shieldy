@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shieldy | Mission 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🛡️ Shieldy
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">🏠 Startseite</a></li>
+            <li><a href="escaperoom.html">🎮 Escape Room</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="content">
+
+        <h1>🔑 Mission 1: Passwort-Sicherheit</h1>
+
+        <p class="intro">
+            Der Angreifer hat den Zugang zum Hauptserver blockiert.
+            Um das erste Sicherheitssystem wieder zu aktivieren,
+            musst du ein sicheres Passwort erstellen.
+        </p>
+
+        <div class="mission-card">
+
+            <h2>Deine Aufgabe</h2>
+
+            <p>
+                Erstelle ein Passwort mit:
+            </p>
+
+            <ul>
+                <li>Mindestens 12 Zeichen</li>
+                <li>Mindestens einem Großbuchstaben</li>
+                <li>Mindestens einer Zahl</li>
+                <li>Mindestens einem Sonderzeichen</li>
+            </ul>
+
+            <input
+                type="text"
+                id="answer1"
+                placeholder="Passwort eingeben">
+
+            <button onclick="checkMission1()">
+                Passwort prüfen
+            </button>
+
+            <p id="result1"></p>
+
+        </div>
+
+        <div class="tip-box">
+
+            <h2>💡 Hinweis</h2>
+
+            <p>
+                Denke daran:
+                Cyberkriminelle können einfache Passwörter in wenigen Sekunden knacken.
+            </p>
+
+        </div>
+
+    </section>
+
+    <script src="escape.js"></script>
+
+</body>
+
+</html>

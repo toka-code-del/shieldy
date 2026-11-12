@@ -1,0 +1,624 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#111827;
+}
+
+.logo{
+    font-size:1.8rem;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.nav-links{
+    list-style:none;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.escape-intro{
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.intro-card{
+    max-width:900px;
+    width:100%;
+    background:#1e293b;
+    border-radius:25px;
+    padding:50px;
+    text-align:center;
+}
+
+.intro-card h1{
+    font-size:3rem;
+    margin-bottom:25px;
+    color:#38bdf8;
+}
+
+.story{
+    margin-bottom:20px;
+    line-height:1.8;
+    color:#cbd5e1;
+}
+
+.mission-preview{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    margin:40px 0;
+}
+
+.mission-preview div{
+    background:#334155;
+    border-radius:15px;
+    padding:20px;
+    font-weight:bold;
+}
+
+.warning-box{
+    background:#0f172a;
+    border-left:5px solid #38bdf8;
+    padding:20px;
+    border-radius:15px;
+    margin:25px 0;
+}
+
+.start-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 35px;
+    background:#38bdf8;
+    color:#0f172a;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:bold;
+}
+
+.start-btn:hover{
+    background:#7dd3fc;
+}
+
+@media(max-width:768px){
+
+    .intro-card{
+        padding:30px;
+    }
+
+    .intro-card h1{
+        font-size:2rem;
+    }
+
+}
+
+.next-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+}
+
+.next-btn:hover{
+
+    background:#7dd3fc;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#0f172a;
+    color:#e2e8f0;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#111827;
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    border-bottom:1px solid #1e293b;
+}
+
+.logo{
+    font-size:1.8rem;
+    font-weight:700;
+    color:#38bdf8;
+}
+
+.nav-links{
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#cbd5e1;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    color:#38bdf8;
+}
+
+/* CONTENT */
+
+.content{
+    max-width:1000px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+h1{
+    font-size:3rem;
+    text-align:center;
+    margin-bottom:20px;
+    color:white;
+}
+
+.intro{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 50px auto;
+    color:#94a3b8;
+}
+
+/* KARTE */
+
+.final-card,
+.mission-card,
+.email-box,
+.certificate,
+.tip-box{
+
+    background:#1e293b;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    border:1px solid #334155;
+}
+
+/* TITEL */
+
+.final-card h2,
+.mission-card h2,
+.certificate h2,
+.tip-box h2{
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+
+/* LETTERS */
+
+.letters{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:30px 0;
+}
+
+.letters span{
+
+    width:70px;
+    height:70px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#0f172a;
+
+    border-radius:12px;
+
+    font-size:1.8rem;
+    font-weight:bold;
+
+    color:#38bdf8;
+}
+
+/* INPUT */
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:20px;
+
+    border:1px solid #334155;
+
+    background:#0f172a;
+
+    color:white;
+
+    border-radius:12px;
+}
+
+input:focus{
+
+    outline:none;
+
+    border-color:#38bdf8;
+}
+
+/* BUTTON */
+
+button{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.2s ease;
+}
+
+button:hover{
+
+    background:#7dd3fc;
+}
+
+/* NEXT BUTTON */
+
+.next-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 20px;
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-weight:600;
+}
+
+/* ZERTIFIKAT */
+
+.certificate{
+
+    text-align:center;
+}
+
+.certificate h3{
+
+    color:#38bdf8;
+
+    margin:20px 0;
+}
+
+/* EMAIL */
+
+.email-box{
+
+    background:#111827;
+}
+
+.email-box h3,
+.email-box h4{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        padding:20px;
+
+        flex-direction:column;
+
+        gap:15px;
+    }
+
+    h1{
+        font-size:2.2rem;
+    }
+
+    .letters{
+        flex-wrap:wrap;
+    }
+}
+
+
+/* =========================
+   MOBILE DESIGN
+========================= */
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    .content{
+        width:95%;
+        padding:40px 15px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    .intro{
+        font-size:0.95rem;
+    }
+
+    .mission-card,
+    .final-card,
+    .certificate,
+    .tip-box,
+    .email-box{
+        padding:20px;
+    }
+
+    input,
+    button{
+        width:100%;
+    }
+
+    .letters{
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .letters span{
+        width:60px;
+        height:60px;
+        font-size:1.5rem;
+    }
+
+    #shieldybot{
+        width:90%;
+        right:5%;
+        bottom:80px;
+        height:450px;
+    }
+
+    #shieldybot-btn{
+        right:15px;
+        bottom:15px;
+    }
+
+}
+.nav-links{
+    display:flex;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN
+=================================== */
+
+/* Tablets */
+
+@media (max-width:1024px){
+
+    .navbar{
+        padding:15px 25px;
+    }
+
+    .hero h1{
+        font-size:3rem;
+    }
+
+    .hero p{
+        font-size:1.1rem;
+    }
+
+    .content{
+        width:95%;
+    }
+
+    .hero-image{
+        height:300px;
+    }
+
+}
+
+/* Handys */
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    .logo{
+        font-size:1.5rem;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    .hero{
+        min-height:70vh;
+        padding:20px;
+    }
+
+    .hero h1{
+        font-size:2.3rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+        max-width:100%;
+    }
+
+    .content{
+        width:95%;
+        padding:50px 15px;
+    }
+
+    .content h1{
+        font-size:2rem;
+    }
+
+    .intro{
+        font-size:1rem;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .features{
+        grid-template-columns:1fr;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .hero-image{
+        height:220px;
+    }
+
+    .card{
+        height:auto;
+    }
+
+    .card h3{
+        font-size:1.5rem;
+    }
+
+    .letters{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .letters span{
+        width:60px;
+        height:60px;
+        font-size:1.5rem;
+    }
+
+    #shieldybot{
+        width:90%;
+        right:5%;
+        bottom:85px;
+        height:450px;
+    }
+
+    #shieldybot-btn{
+        right:15px;
+        bottom:15px;
+    }
+
+}
+
+/* Sehr kleine Handys */
+
+@media (max-width:480px){
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .content h1{
+        font-size:1.8rem;
+    }
+
+    .navbar{
+        padding:10px;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .mission-card,
+    .tip-box,
+    .fact-box,
+    .certificate,
+    .email-box,
+    .final-card{
+        padding:20px;
+    }
+
+    input,
+    button{
+        font-size:0.95rem;
+    }
+
+}

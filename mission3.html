@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shieldy | Mission 3</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        🛡️ Shieldy
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">🏠 Startseite</a></li>
+        <li><a href="escaperoom.html">🎮 Escape Room</a></li>
+    </ul>
+
+</nav>
+
+<section class="content">
+
+    <h1>🌐 Mission 3: Netzwerk-Challenge</h1>
+
+    <p class="intro">
+        Die Kommunikation zwischen den Computern ist ausgefallen.
+        Nur das richtige Netzwerkgerät kann die Datenübertragung
+        wiederherstellen.
+    </p>
+
+    <div class="mission-card">
+
+        <h2>Frage</h2>
+
+        <p>
+            Welches Gerät verbindet mehrere Computer
+            innerhalb eines lokalen Netzwerks?
+        </p>
+
+        <ul>
+            <li>Router</li>
+            <li>Switch</li>
+            <li>Drucker</li>
+        </ul>
+
+        <input
+            type="text"
+            id="answer3"
+            placeholder="Antwort eingeben">
+
+        <button onclick="checkMission3()">
+            Antwort prüfen
+        </button>
+
+        <p id="result3"></p>
+
+    </div>
+
+    <div class="tip-box">
+
+        <h2>💡 Hinweis</h2>
+
+        <p>
+            Das gesuchte Gerät arbeitet auf Schicht 2
+            des OSI-Modells.
+        </p>
+
+    </div>
+
+</section>
+
+<script src="escape.js"></script>
+
+</body>
+</html>

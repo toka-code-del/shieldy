@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shieldy | Mission 2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        🛡️ Shieldy
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">🏠 Startseite</a></li>
+        <li><a href="escaperoom.html">🎮 Escape Room</a></li>
+    </ul>
+
+</nav>
+
+<section class="content">
+
+    <h1>📧 Mission 2: Phishing erkennen</h1>
+
+    <p class="intro">
+        Der Angreifer verschickt betrügerische E-Mails an Mitarbeiter.
+        Analysiere die Nachricht und finde das Warnzeichen.
+    </p>
+
+    <div class="email-box">
+
+        <h3>Von: support@microsoft-security.xyz</h3>
+
+        <h4>Betreff: Ihr Konto wird gesperrt</h4>
+
+        <p>Sehr geehrter Kunde,</p>
+
+        <p>
+            Ihr Konto wird innerhalb von 24 Stunden deaktiviert.
+        </p>
+
+        <p>
+            Bitte melden Sie sich sofort an:
+        </p>
+
+        <p>
+            https://microsoft-security.xyz/login
+        </p>
+
+        <p>
+            Mit freundlichen Grüßen
+            <br>
+            Support Team
+        </p>
+
+    </div>
+
+    <div class="mission-card">
+
+        <h2>Deine Aufgabe</h2>
+
+        <p>
+            Nenne ein Warnzeichen dieser E-Mail.
+        </p>
+
+        <input
+            type="text"
+            id="answer2"
+            placeholder="Antwort eingeben">
+
+        <button onclick="checkMission2()">
+            Antwort prüfen
+        </button>
+
+        <p id="result2"></p>
+
+    </div>
+
+    <div class="tip-box">
+
+        <h2>💡 Hinweis</h2>
+
+        <p>
+            Achte auf verdächtige Links,
+            unbekannte Domains oder auffällige Absender.
+        </p>
+
+    </div>
+
+</section>
+
+<script src="escape.js"></script>
+
+</body>
+</html>
